@@ -1,0 +1,799 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'tr' Physical Memory: 32505 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar" at "2026-03-31T07:40:39.352182Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-03-31T07:40:39Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/oyun/Vertigo Demo/Demo
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+61431
+-licensingIpc
+LicenseClient-cakar
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/oyun/Vertigo Demo/Demo
+C:/oyun/Vertigo Demo/Demo
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [20488]  Target information:
+
+Player connection [20488]  * "[IP] 192.168.1.235 [Port] 0 [Flags] 2 [Guid] 2666019090 [EditorId] 2666019090 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20488]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 2666019090 [EditorId] 2666019090 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20488] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20488] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 104.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/oyun/Vertigo Demo/Demo/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7956 MB
+    Driver:   32.0.15.9597
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              3e048b86640c4f889b04e639e841e24e
+  Correlation Id:          dbcc9dec200145564bd7cae9507fa28d
+  External correlation Id: 7901002470854830949
+  Machine Id:              UzBaQ1oKw7nAdmL4Y4KuFQsfR7E=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cakar" (connect: 0.00s, validation: 0.00s, handshake: 1.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar-notifications" at "2026-03-31T07:40:40.3767422Z"
+[Licensing::Module] Licensing Background thread has ended after 1.02s
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001959 seconds.
+- Loaded All Assemblies, in  3.334 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 3672ms
+	BeginReloadAssembly (109ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (430ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (2744ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2741ms)
+			TypeCache.Refresh (2740ms)
+				TypeCache.ScanAssembly (2160ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (305ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6NBK-962Z-65HE-DAAA-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967464664749-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.585 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.115 seconds
+Domain Reload Profiling: 1697ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (374ms)
+		LoadAssemblies (271ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (128ms)
+				TypeCache.ScanAssembly (117ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1116ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (556ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (120ms)
+			ProcessInitializeOnLoadAttributes (375ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6185 unused Assets / (4.4 MB). Loaded Objects now: 6991.
+Memory consumption went from 150.4 MB to 146.0 MB.
+Total: 8.729000 ms (FindLiveObjects: 0.570200 ms CreateObjectMapping: 0.502600 ms MarkObjects: 5.584400 ms  DeleteObjects: 2.070800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1068.936930 seconds.
+  path: Assets/Task 2/weapon_model/Sahdersız.mat
+  artifactKey: Guid(b48cf6deb85769f47b963f4d1f809d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/Sahdersız.mat using Guid(b48cf6deb85769f47b963f4d1f809d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27abbd67f117de28412cc41060f7cc00') in 0.3971596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.551062 seconds.
+  path: Assets/Task 2/weapon_model/Sahdersız.mat
+  artifactKey: Guid(b48cf6deb85769f47b963f4d1f809d2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/Sahdersız.mat using Guid(b48cf6deb85769f47b963f4d1f809d2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '056e3f6825a30732f6ac733cf79a50c2') in 0.0668749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 407.550766 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0cbd10f61837d5eee9c849865f8728e') in 0.0306694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.928619 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b41953b1eef10336e6703f18a924e78') in 0.0471127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.045221 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c475906e4ec11f151686e96e22bf30a9') in 0.0221487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.938945 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0537f5a1d0af217e9a2168ad4e571ac7') in 0.0301406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.398250 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '82b980468d6aaabb76d44ee4a2289129') in 0.0227193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.940402 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bb5b679656e612f2f46c426da1c93a6') in 0.0211202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.193467 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f588c91d434a6d53219ab01f870bcc2a') in 0.0241347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932780 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0128cb3b836be9a221c1a7aaba211830') in 0.0317123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.736639 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08e5403417ee6196e32816cca8d6293f') in 0.0181142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.946111 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4922b8861f1a4d398834f72365604d86') in 0.0243866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.394043 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9c87b7d203eb6b41e26c0dd09195570') in 0.0193433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945822 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d7cd55c5005d01f9cbafbb2fea391b2') in 0.0227662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.269348 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1fe0e843298e0f082655c06025fcfa0c') in 0.031062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.925448 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14726812e40efa7c49113ff84c288279') in 0.0208126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.892484 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be210057b74ea1332dc8235e2d338ea5') in 0.0257246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.932313 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '073aae6036686e9b44002ba39e1a8c01') in 0.0222923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.863123 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98edcce21aedea68361ddbc9e670e91b') in 0.0316977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.926398 seconds.
+  path: Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga
+  artifactKey: Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/t_spcl_rif_mcx_topscorer_diffuse.tga using Guid(bf9c5d172a4ca174bb900235efa587e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a23798c320765ac7b0044623e962c006') in 0.0217035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.203898 seconds.
+  path: Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader
+  artifactKey: Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader using Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3c244f8c7d0355e6f09d9d89611568e2') in 0.0017292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.775778 seconds.
+  path: Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader
+  artifactKey: Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader using Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e7ffc254179936232e8d7799c5f8b87f') in 0.0217979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.606662 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4646dc2ac4b1ac17b2be023a666adf64') in 0.4561938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.241563 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '70708acc2b5f2418d737a7a702fcd22c') in 0.0351685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 519.918380 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62e57bbc46bf8dd33e8462b8ffabd027') in 0.137081 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.068559 seconds.
+  path: Assets/Task 2/weapon_model/New Material.mat
+  artifactKey: Guid(8044da9f6380eb24fbc91e2d7f2febf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/New Material.mat using Guid(8044da9f6380eb24fbc91e2d7f2febf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8be4965a4eedfa1c557a1c72f991224') in 0.0271666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerMaterial.mat
+  artifactKey: Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/TopScorerMaterial.mat using Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '114d13a9303462f8178be8d12e2c6a5b') in 0.0232208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.876253 seconds.
+  path: Assets/Task 2/weapon_model/New Material.mat
+  artifactKey: Guid(8044da9f6380eb24fbc91e2d7f2febf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Material.mat using Guid(8044da9f6380eb24fbc91e2d7f2febf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fb53705c8c8a833404188d36644c68d') in 0.0212942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerMaterial.mat
+  artifactKey: Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/TopScorerMaterial.mat using Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa98bebb3398901ed670126df5ec9808') in 0.0214172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.476920 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6799c6a6f1bb0d0842f4be90e2730917') in 0.1722656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.318279 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e50adcfeb58aceb026224087795b2a66') in 0.0209413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.616652 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddc4139161e5b4240da99bc653c7b108') in 0.123196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.662610 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e6339ba3bcddaaada323f92592f7f7a') in 0.1279129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 977.372268 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '337307e9c1d08cdd72afd2f948d5f625') in 0.1524931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.434605 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '86009ee3ee4c66a81d7292210930edd4') in 0.1494365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 4096.567968 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67b6be07d5b1c5123e10a0431bd3ccab') in 0.1493765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.431857 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eef99559901c3c4f05e0d61e34bcf6ae') in 0.0226887 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.589461 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5f23acdee58d7a4ebffa8ea4711a154') in 0.0251135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.268759 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94521593baf28f8f3c3fac672c3303b0') in 0.0233337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.161983 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04d6b4b34dc87874248dc6e36786b375') in 0.146942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.336434 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80e53fa1bd0b7adf4f983f6b0423ab0f') in 0.0231113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.143599 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '027dd65abbcd3136fda30b121229b008') in 0.0230044 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.607611 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8960c296a78f1a930f146416b7afe321') in 0.1507086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 1325.787717 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b270b150403f8f52ecfa95f943666927') in 0.1326664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.045425 seconds.
+  path: Assets/Task 2/weapon_model/metallic_map.png
+  artifactKey: Guid(aad10cc151167d54095a65c859a2f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/metallic_map.png using Guid(aad10cc151167d54095a65c859a2f037) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2eded8cff53eae12e3f6de22a066b490') in 0.0230509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.936297 seconds.
+  path: Assets/Task 2/weapon_model/metallic_map.png
+  artifactKey: Guid(aad10cc151167d54095a65c859a2f037) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/metallic_map.png using Guid(aad10cc151167d54095a65c859a2f037) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c728c390343f1a3d7d3cfe293440671c') in 0.0309317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.500561 seconds.
+  path: Assets/Task 2/weapon_model/metallic_map (1).png
+  artifactKey: Guid(cdbc8abc2c910904393a02c99098de1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/metallic_map (1).png using Guid(cdbc8abc2c910904393a02c99098de1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c4539e1cdb747ae25d5a9bea988a5f5') in 0.0142254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.945446 seconds.
+  path: Assets/Task 2/weapon_model/metallic_map (1).png
+  artifactKey: Guid(cdbc8abc2c910904393a02c99098de1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/metallic_map (1).png using Guid(cdbc8abc2c910904393a02c99098de1a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '505014e64240af98cc98092d35af788e') in 0.0216289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.167057 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerMaterial.mat
+  artifactKey: Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/TopScorerMaterial.mat using Guid(a75daf295b72dbf4db8cb610a79890ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6b76c3e00cd45d5a4528475472487862') in 0.0272649 seconds
+Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.439662 seconds.
+  path: Assets/Task 2/weapon_model/New Shader Graph.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/New Shader Graph.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '16104e9457b061af2c8074bc59971f83') in 1.7230416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.953372 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerShader.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/TopScorerShader.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '469ea2a4a1b9bda8f163946112dcd1f1') in 2.4325238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 300.800208 seconds.
+  path: Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader
+  artifactKey: Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader using Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd959c0bb65a1e0a2aaab5ef8f0e1048d') in 0.0034007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.892077 seconds.
+  path: Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader
+  artifactKey: Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/NewUnlitUniversalRenderPipelineShader.shader using Guid(00c6af2d5b75bb84e9f0e3d7c87f9c3a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a6a6a8d880edfd94f1fb8926c9f0bdb') in 0.0195994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 418.077844 seconds.
+  path: Assets/Task 2/weapon_model/Katman 6.png
+  artifactKey: Guid(52e91087581b8b7469b76e8f1aac9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/Katman 6.png using Guid(52e91087581b8b7469b76e8f1aac9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9026609755f318e79ea9ea26a706128b') in 0.020746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919419 seconds.
+  path: Assets/Task 2/weapon_model/Katman 6.png
+  artifactKey: Guid(52e91087581b8b7469b76e8f1aac9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/Katman 6.png using Guid(52e91087581b8b7469b76e8f1aac9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9bc9717fdbc35f4daa378208f6e07aa') in 0.022803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.684936 seconds.
+  path: Assets/Task 2/weapon_model/Katman 6.png
+  artifactKey: Guid(52e91087581b8b7469b76e8f1aac9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/Katman 6.png using Guid(52e91087581b8b7469b76e8f1aac9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8bf28c390ea4193cc194313096fc1b18') in 0.0233362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.920980 seconds.
+  path: Assets/Task 2/weapon_model/Katman 6.png
+  artifactKey: Guid(52e91087581b8b7469b76e8f1aac9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/Katman 6.png using Guid(52e91087581b8b7469b76e8f1aac9198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb199f8afb749d72d445c549d982d23d') in 0.0281504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 204.289030 seconds.
+  path: Assets/Task 2/weapon_model/Katman 8.png
+  artifactKey: Guid(4a87e4fa4155f064d9212c70d306e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/Katman 8.png using Guid(4a87e4fa4155f064d9212c70d306e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06ca62a68862a0abe65e96109736d7b2') in 0.0226514 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.919637 seconds.
+  path: Assets/Task 2/weapon_model/Katman 8.png
+  artifactKey: Guid(4a87e4fa4155f064d9212c70d306e702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/Katman 8.png using Guid(4a87e4fa4155f064d9212c70d306e702) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11c6c25a7042ad8403a2b184a572b081') in 0.0294417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 107.956913 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerShader.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/TopScorerShader.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7feaf2d7f40fc3b56185b963efafe177') in 2.8977091 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.146722 seconds.
+  path: Assets/Task 2/weapon_model/normal_map.png
+  artifactKey: Guid(744bb1a2bed7607459339d0f6a06b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/normal_map.png using Guid(744bb1a2bed7607459339d0f6a06b6c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '623fdc34b26646426ec9b4791a2478f8') in 0.0203188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.931537 seconds.
+  path: Assets/Task 2/weapon_model/normal_map.png
+  artifactKey: Guid(744bb1a2bed7607459339d0f6a06b6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Task 2/weapon_model/normal_map.png using Guid(744bb1a2bed7607459339d0f6a06b6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '575e8ef09915e9c3398ce13b8d27575a') in 0.0216895 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.215013 seconds.
+  path: Assets/Task 2/weapon_model/TopScorerShader.shadergraph
+  artifactKey: Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/TopScorerShader.shadergraph using Guid(5dcab6bca6a225c49a6c849704668190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d6883ecd4f93103446d7cac09aa0f02') in 2.9275624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-6NBK-962Z-65HE-DAAA-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 18967464664749-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.128 seconds
+Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.010 seconds
+Domain Reload Profiling: 2138ms
+	BeginReloadAssembly (420ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (58ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (138ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (523ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (214ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1011ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (153ms)
+			ProcessInitializeOnLoadAttributes (562ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6182 unused Assets / (4.4 MB). Loaded Objects now: 7073.
+Memory consumption went from 167.5 MB to 163.1 MB.
+Total: 10.859300 ms (FindLiveObjects: 0.674700 ms CreateObjectMapping: 0.667500 ms MarkObjects: 6.983100 ms  DeleteObjects: 2.532500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 314.930203 seconds.
+  path: Assets/Task 2/weapon_model/Katman 8.png
+  artifactKey: Guid(4a87e4fa4155f064d9212c70d306e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Task 2/weapon_model/Katman 8.png using Guid(4a87e4fa4155f064d9212c70d306e702) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '651db27770a38560c273661d707eae2b') in 0.1829231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
