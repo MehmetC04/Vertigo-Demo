@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccd74e88d9d4f3408977f980a0ad422, type: 3}
+  m_Name: 00_Sight_BasicSight
+  m_EditorClassIdentifier: Assembly-CSharp::AttachmentData
+  attachmentName: Basic Sight
+  description: 
+  attachmentIcon: {fileID: 21300000, guid: 78fae2cf38c8f4a4da603af6d38b182d, type: 3}
+  attachmentLvl: 1
+  category: 0
+  targetMeshNames:
+  - sk_primary_dash_att_00_sight_0_LOD0
+  - sk_primary_dash_att_00_sight_0_LOD1
+  modifiers:
+  - statType: 2
+    value: 5
+  - statType: 5
+    value: 2

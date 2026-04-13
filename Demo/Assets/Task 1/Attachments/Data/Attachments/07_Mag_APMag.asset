@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccd74e88d9d4f3408977f980a0ad422, type: 3}
+  m_Name: 07_Mag_APMag
+  m_EditorClassIdentifier: Assembly-CSharp::AttachmentData
+  attachmentName: AP Mag
+  description: 
+  attachmentIcon: {fileID: 21300000, guid: 8fd2354e4b0b4164eb7446a5af17bbf6, type: 3}
+  attachmentLvl: 5
+  category: 1
+  targetMeshNames:
+  - sk_primary_dash_att_07_mag_4_LOD0
+  - sk_primary_dash_att_07_mag_4_LOD1
+  modifiers:
+  - statType: 1
+    value: 10
+  - statType: 0
+    value: 15

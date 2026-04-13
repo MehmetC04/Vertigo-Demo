@@ -1,10 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\oyun\\Vertigo Demo\\Demo\\",
+  "WorkspaceRootPath": "D:\\oyun\\Vertigo Demo\\Demo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|c:\\oyun\\vertigo demo\\demo\\assets\\task 2\\weapon_model\\weapontrailribbon.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 2\\weapon_model\\weapontrailribbon.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|d:\\oyun\\vertigo demo\\demo\\assets\\task 1\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|d:\\oyun\\vertigo demo\\demo\\assets\\task 1\\scripts\\statitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\statitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\weaponmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\attachmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\attachmentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB0005D0-E46F-236E-2F57-76542FED5F47}|Assembly-CSharp-Editor.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\editor\\attachmentdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB0005D0-E46F-236E-2F57-76542FED5F47}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\task 1\\scripts\\editor\\attachmentdatagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\attachmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\attachmentitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|D:\\oyun\\Vertigo Demo\\Demo\\assets\\task 1\\scripts\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A77DEB61-50BA-3D2B-BA85-CD07C2DB2C66}|Assembly-CSharp.csproj|solutionrelative:assets\\task 1\\scripts\\categoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "WeaponTrailRibbon.shader",
-              "DocumentMoniker": "C:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 2\\weapon_model\\WeaponTrailRibbon.shader",
-              "RelativeDocumentMoniker": "Assets\\Task 2\\weapon_model\\WeaponTrailRibbon.shader",
-              "ToolTip": "C:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 2\\weapon_model\\WeaponTrailRibbon.shader",
-              "RelativeToolTip": "Assets\\Task 2\\weapon_model\\WeaponTrailRibbon.shader",
-              "ViewState": "AgIAAI0AAAAAAAAAAAAAAJYAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002777|",
-              "WhenOpened": "2026-04-01T07:48:19.837Z",
+              "DocumentIndex": 1,
+              "Title": "StatItem.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\StatItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\StatItem.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\StatItem.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\StatItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T08:14:36.648Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CameraController.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\CameraController.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\CameraController.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\CameraController.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\CameraController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDoAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:51:36.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeaponManager.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\WeaponManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\WeaponManager.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\WeaponManager.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\WeaponManager.cs",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAQwJcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:32:57.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CategoryItem.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\CategoryItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\CategoryItem.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\CategoryItem.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\CategoryItem.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwDUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T07:19:23.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AttachmentItem.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\AttachmentItem.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\AttachmentItem.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\AttachmentItem.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\AttachmentItem.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T06:55:40.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\UIManager.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAiwEEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T20:15:02.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AttachmentDataGenerator.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\Editor\\AttachmentDataGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\Editor\\AttachmentDataGenerator.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\Editor\\AttachmentDataGenerator.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\Editor\\AttachmentDataGenerator.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAAAEgAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:49:40.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AttachmentData.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\AttachmentData.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\AttachmentData.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\AttachmentData.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\AttachmentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:01:47.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Enums.cs",
+              "DocumentMoniker": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\Enums.cs",
+              "RelativeDocumentMoniker": "Assets\\Task 1\\Scripts\\Enums.cs",
+              "ToolTip": "D:\\oyun\\Vertigo Demo\\Demo\\Assets\\Task 1\\Scripts\\Enums.cs",
+              "RelativeToolTip": "Assets\\Task 1\\Scripts\\Enums.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T19:00:59.032Z"
             }
           ]
         }

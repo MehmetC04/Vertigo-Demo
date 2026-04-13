@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccd74e88d9d4f3408977f980a0ad422, type: 3}
+  m_Name: 05_Mag_QuickdrawMag
+  m_EditorClassIdentifier: Assembly-CSharp::AttachmentData
+  attachmentName: Quickdraw Mag
+  description: 
+  attachmentIcon: {fileID: 21300000, guid: cab488688a719c749abb2940d2f442f2, type: 3}
+  attachmentLvl: 3
+  category: 1
+  targetMeshNames:
+  - sk_primary_dash_att_05_mag_2_LOD0
+  - sk_primary_dash_att_05_mag_2_LOD1
+  modifiers:
+  - statType: 7
+    value: 15
+  - statType: 6
+    value: -5
