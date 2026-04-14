@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Task 2\Shader\Editor\WindFX_ShaderGUI.cs" />
     <Compile Include="Assets\Task 1\Scripts\Editor\AttachmentDataGenerator.cs" />
   </ItemGroup>
   <ItemGroup>

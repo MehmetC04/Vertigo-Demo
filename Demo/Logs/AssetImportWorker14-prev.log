@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar" at "2026-04-12T19:52:32.5402179Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'tr' Physical Memory: 32503 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar" at "2026-04-13T16:00:06.9754183Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-12T19:52:32Z
+Date: 2026-04-13T16:00:06Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/oyun/Vertigo Demo/Demo
 -logFile
 Logs/AssetImportWorker14.log
 -srvPort
-59771
+62650
 -licensingIpc
 LicenseClient-cakar
 -job-worker-count
@@ -67,14 +67,14 @@ D:/oyun/Vertigo Demo/Demo
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [32656]  Target information:
+Player connection [47392]  Target information:
 
-Player connection [32656]  * "[IP] 192.168.1.235 [Port] 0 [Flags] 2 [Guid] 2519021722 [EditorId] 2519021722 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47392]  * "[IP] 192.168.1.235 [Port] 0 [Flags] 2 [Guid] 1857270697 [EditorId] 1857270697 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32656]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 2519021722 [EditorId] 2519021722 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47392]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 1857270697 [EditorId] 1857270697 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32656] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32656] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [47392] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47392] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -102,55 +102,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002307 seconds.
+Registered in 0.002429 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              95ce021529514efcb4573c277e7446f2
-  Correlation Id:          665e1a35a9305d8429e4303fcea1138f
-  External correlation Id: 1825544592226106741
+  Session Id:              deb958cfe72d4a539172885311ec5509
+  Correlation Id:          38989675ce3725a3ad1f803dcebac7e7
+  External correlation Id: 8378375854025016632
   Machine Id:              UzBaQ1oKw7nAdmL4Y4KuFQsfR7E=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cakar" (connect: 0.00s, validation: 0.00s, handshake: 1.37s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar-notifications" at "2026-04-12T19:52:33.912941Z"
-[Licensing::Module] Licensing Background thread has ended after 1.37s
-- Loaded All Assemblies, in  0.557 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cakar" (connect: 0.00s, validation: 0.00s, handshake: 1.41s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar-notifications" at "2026-04-13T16:00:08.3871579Z"
+[Licensing::Module] Licensing Background thread has ended after 1.41s
+- Loaded All Assemblies, in  0.481 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.665 seconds
-Domain Reload Profiling: 1219ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.486 seconds
+Domain Reload Profiling: 964ms
+	BeginReloadAssembly (169ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (59ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (62ms)
-	LoadAllAssembliesAndSetupDomain (255ms)
-		LoadAssemblies (158ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (163ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (251ms)
-			TypeCache.Refresh (247ms)
-				TypeCache.ScanAssembly (229ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (174ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (666ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (487ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (587ms)
+		SetupLoadedEditorAssemblies (436ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (88ms)
+			InitializePlatformSupportModulesInManaged (57ms)
 			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (129ms)
-			ProcessInitializeOnLoadAttributes (255ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (184ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,8 +170,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.133 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.886 seconds
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,46 +180,182 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.230 seconds
-Domain Reload Profiling: 2359ms
-	BeginReloadAssembly (264ms)
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 1772ms
+	BeginReloadAssembly (220ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (8ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (66ms)
-	LoadAllAssembliesAndSetupDomain (729ms)
-		LoadAssemblies (499ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (575ms)
+		LoadAssemblies (374ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (376ms)
-			TypeCache.Refresh (267ms)
-				TypeCache.ScanAssembly (248ms)
-			BuildScriptInfoCaches (89ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1231ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (202ms)
+				TypeCache.ScanAssembly (185ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (890ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (984ms)
+		SetupLoadedEditorAssemblies (685ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (207ms)
-			ProcessInitializeOnLoadAttributes (672ms)
-			ProcessInitializeOnLoadMethodAttributes (86ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (135ms)
+			ProcessInitializeOnLoadAttributes (468ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6868 unused Assets / (5.8 MB). Loaded Objects now: 7699.
-Memory consumption went from 156.4 MB to 150.7 MB.
-Total: 13.957600 ms (FindLiveObjects: 1.364600 ms CreateObjectMapping: 0.629700 ms MarkObjects: 9.116000 ms  DeleteObjects: 2.845500 ms)
+Unloading 6876 unused Assets / (6.0 MB). Loaded Objects now: 7718.
+Memory consumption went from 158.7 MB to 152.7 MB.
+Total: 14.124400 ms (FindLiveObjects: 1.516600 ms CreateObjectMapping: 0.734300 ms MarkObjects: 7.824300 ms  DeleteObjects: 4.047300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 85302.107198 seconds.
+  path: Assets/Special FX Shaders/Textures/star-t.png
+  artifactKey: Guid(0e34c8ebe216f8248a5cafa2e98fe49a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/star-t.png using Guid(0e34c8ebe216f8248a5cafa2e98fe49a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3ef4a16f970f5b03cd422b37f26a932') in 0.166258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Special FX Shaders/Textures/Grad-007.png
+  artifactKey: Guid(00e5f66f4310fd447970a3747036e508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Grad-007.png using Guid(00e5f66f4310fd447970a3747036e508) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cad8e2d08e67fd47e7f459ecd9e60789') in 0.0278678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Special FX Shaders/Animations/LineRenderTarget Animation.anim
+  artifactKey: Guid(8aa5ba95c60371646b66e7abc8cd1785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animations/LineRenderTarget Animation.anim using Guid(8aa5ba95c60371646b66e7abc8cd1785) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85f067a2087cf7c9332e58055e48156e') in 0.0384267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Special FX Shaders/Scene/Animated FX Shaders.unity
+  artifactKey: Guid(b961c5c76e0359e4996efdbe055eacb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Scene/Animated FX Shaders.unity using Guid(b961c5c76e0359e4996efdbe055eacb7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a9d30c797948ef7bffa08a6f3ee8bb2') in 0.0197204 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Special FX Shaders/Textures/Grad3.png
+  artifactKey: Guid(ac80ac331ad02584e9f672d157fd19ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Grad3.png using Guid(ac80ac331ad02584e9f672d157fd19ae) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5fff74a4d3d937083bb633650b1df0f4') in 0.0245551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Special FX Shaders/Animations/LineRenderTarget.controller
+  artifactKey: Guid(a7bcf2d6ec5379142aa6b70c6ce0fb8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animations/LineRenderTarget.controller using Guid(a7bcf2d6ec5379142aa6b70c6ce0fb8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b435f38fdbbc01b7fbd66600416328d') in 0.0202129 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Special FX Shaders/Models/plane.fbx
+  artifactKey: Guid(978378d30db638b418e07f3df3a6cb56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Models/plane.fbx using Guid(978378d30db638b418e07f3df3a6cb56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5bddd9841d345ad99dc635475340bfb') in 0.0701376 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Materials/Material__untitled.mat
+  artifactKey: Guid(eb84371f14ac8294d8ed46b7b7e5274b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Materials/Material__untitled.mat using Guid(eb84371f14ac8294d8ed46b7b7e5274b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5e8581f226da2a98305bbd7d6291f37e') in 0.0250631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Special FX Shaders/Textures/Grad-005.png
+  artifactKey: Guid(8a48c44c70df3534c908db49c4e5888b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Grad-005.png using Guid(8a48c44c70df3534c908db49c4e5888b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '001536591714c4dad975358373ab13ad') in 0.024622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Plat_FX.mat
+  artifactKey: Guid(1ccd6a529d8d314478cb4dbe2705dd75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Plat_FX.mat using Guid(1ccd6a529d8d314478cb4dbe2705dd75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5037550f1cf54e63e96e703f5c0b93b') in 0.0257488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Magic/M2.mat
+  artifactKey: Guid(2eeb66e826411e54b9ab15836a392e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Magic/M2.mat using Guid(2eeb66e826411e54b9ab15836a392e72) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '042945946d5b983b9c6b9dd3a486d92e') in 0.0283319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Fire Adt.mat
+  artifactKey: Guid(a57b3f0988b5c7244a75a64823bf5790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Fire Adt.mat using Guid(a57b3f0988b5c7244a75a64823bf5790) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4872e41748118e437d747a061c6ab748') in 0.0213096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Special FX Shaders/Models/Dome_2.fbx
+  artifactKey: Guid(6e2314b5459e07e4abbe304dfc95f7d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Models/Dome_2.fbx using Guid(6e2314b5459e07e4abbe304dfc95f7d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cf35921d089f4e493de1e713c638c09') in 0.022517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Special FX Shaders/Shaders/Special FX/Special FX Dissolve Distortion.shader
+  artifactKey: Guid(917d1a9df0b263144a391e3ef5353495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Shaders/Special FX/Special FX Dissolve Distortion.shader using Guid(917d1a9df0b263144a391e3ef5353495) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '726460d8259e9dc74c52b69ee389f577') in 0.0188488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Special FX Shaders/Shaders/Special FX/Special FX Dissolve.shader
+  artifactKey: Guid(928b84b2793d11b4a873f3bc4333e164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Shaders/Special FX/Special FX Dissolve.shader using Guid(928b84b2793d11b4a873f3bc4333e164) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eac8ca1b45ef8a283f2c684146f8cb68') in 0.0188672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Ef.mat
+  artifactKey: Guid(b461fe0ae381bf94aa0d7b0c7872111a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Ef.mat using Guid(b461fe0ae381bf94aa0d7b0c7872111a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '42ff8cbf8d40656ca592965056143af5') in 0.0171628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/Plat02.mat
+  artifactKey: Guid(e9e63d8607fde9140b8a2ce85abd6d9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/Plat02.mat using Guid(e9e63d8607fde9140b8a2ce85abd6d9a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4aac029b44ae9180e352e1ce1229efe2') in 0.0167926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server

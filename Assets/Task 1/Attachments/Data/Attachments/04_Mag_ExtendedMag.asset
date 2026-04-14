@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cccd74e88d9d4f3408977f980a0ad422, type: 3}
+  m_Name: 04_Mag_ExtendedMag
+  m_EditorClassIdentifier: Assembly-CSharp::AttachmentData
+  attachmentName: Extended Mag
+  description: 
+  attachmentIcon: {fileID: 21300000, guid: ce0ce52dfafe6064b998769ec2de27bc, type: 3}
+  attachmentLvl: 2
+  category: 1
+  targetMeshNames:
+  - sk_primary_dash_att_04_mag_1_LOD0
+  - sk_primary_dash_att_04_mag_1_LOD1
+  modifiers:
+  - statType: 6
+    value: 45
+  - statType: 5
+    value: -5

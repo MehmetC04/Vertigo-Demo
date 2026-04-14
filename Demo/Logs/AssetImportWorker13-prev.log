@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'tr' Physical Memory: 32503 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar" at "2026-04-12T19:52:32.5180583Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar" at "2026-04-13T15:52:41.131757Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-04-12T19:52:32Z
+Date: 2026-04-13T15:52:41Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ D:/oyun/Vertigo Demo/Demo
 -logFile
 Logs/AssetImportWorker13.log
 -srvPort
-59771
+62650
 -licensingIpc
 LicenseClient-cakar
 -job-worker-count
@@ -67,14 +67,14 @@ D:/oyun/Vertigo Demo/Demo
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [32224]  Target information:
+Player connection [43384]  Target information:
 
-Player connection [32224]  * "[IP] 192.168.1.235 [Port] 0 [Flags] 2 [Guid] 701718556 [EditorId] 701718556 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [43384]  * "[IP] 192.168.1.235 [Port] 0 [Flags] 2 [Guid] 888493082 [EditorId] 888493082 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32224]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 701718556 [EditorId] 701718556 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [43384]  * "[IP] 192.168.137.1 [Port] 0 [Flags] 2 [Guid] 888493082 [EditorId] 888493082 [Version] 1048832 [Id] WindowsEditor(7,Mehmet) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [32224] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [32224] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [43384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [43384] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -102,55 +102,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56324
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003324 seconds.
+Registered in 0.002100 seconds.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              c469d57a652b4f87a94069d9ea11f23b
-  Correlation Id:          665e1a35a9305d8429e4303fcea1138f
-  External correlation Id: 1770755355615227964
+  Session Id:              a7aa70d9946141e58a5f3525d92939bb
+  Correlation Id:          38989675ce3725a3ad1f803dcebac7e7
+  External correlation Id: 375518284486158711
   Machine Id:              UzBaQ1oKw7nAdmL4Y4KuFQsfR7E=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cakar" (connect: 0.00s, validation: 0.00s, handshake: 1.40s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar-notifications" at "2026-04-12T19:52:33.9219064Z"
-[Licensing::Module] Licensing Background thread has ended after 1.40s
-- Loaded All Assemblies, in  0.564 seconds
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-cakar" (connect: 0.00s, validation: 0.00s, handshake: 1.17s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-cakar-notifications" at "2026-04-13T15:52:42.3088633Z"
+[Licensing::Module] Licensing Background thread has ended after 1.18s
+- Loaded All Assemblies, in  0.465 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.652 seconds
-Domain Reload Profiling: 1211ms
-	BeginReloadAssembly (164ms)
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 882ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (67ms)
-	LoadAllAssembliesAndSetupDomain (259ms)
-		LoadAssemblies (161ms)
+	RebuildCommonClasses (47ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (185ms)
+		LoadAssemblies (157ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (251ms)
-				TypeCache.ScanAssembly (233ms)
+		AnalyzeDomain (182ms)
+			TypeCache.Refresh (180ms)
+				TypeCache.ScanAssembly (166ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (653ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (420ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (579ms)
+		SetupLoadedEditorAssemblies (374ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (89ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (127ms)
-			ProcessInitializeOnLoadAttributes (248ms)
-			ProcessInitializeOnLoadMethodAttributes (109ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (156ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -170,8 +170,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  1.132 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.877 seconds
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -180,46 +180,470 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.254 seconds
-Domain Reload Profiling: 2381ms
-	BeginReloadAssembly (251ms)
+- Finished resetting the current domain, in  0.955 seconds
+Domain Reload Profiling: 1828ms
+	BeginReloadAssembly (193ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (17ms)
-	initialDomainReloadingComplete (60ms)
-	LoadAllAssembliesAndSetupDomain (741ms)
-		LoadAssemblies (502ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (595ms)
+		LoadAssemblies (395ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (383ms)
-			TypeCache.Refresh (275ms)
-				TypeCache.ScanAssembly (253ms)
-			BuildScriptInfoCaches (88ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (1254ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (188ms)
+			BuildScriptInfoCaches (80ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (955ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (990ms)
+		SetupLoadedEditorAssemblies (743ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (202ms)
-			ProcessInitializeOnLoadAttributes (693ms)
-			ProcessInitializeOnLoadMethodAttributes (77ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (532ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6868 unused Assets / (5.7 MB). Loaded Objects now: 7699.
-Memory consumption went from 160.1 MB to 154.3 MB.
-Total: 12.154400 ms (FindLiveObjects: 0.693900 ms CreateObjectMapping: 0.679500 ms MarkObjects: 7.369400 ms  DeleteObjects: 3.410100 ms)
+Unloading 6876 unused Assets / (5.7 MB). Loaded Objects now: 7719.
+Memory consumption went from 156.8 MB to 151.1 MB.
+Total: 8.159000 ms (FindLiveObjects: 0.562900 ms CreateObjectMapping: 0.528000 ms MarkObjects: 5.028400 ms  DeleteObjects: 2.038600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 84856.832450 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Magic.prefab
+  artifactKey: Guid(852b4e6d85557294e950a5e28bf0442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Magic.prefab using Guid(852b4e6d85557294e950a5e28bf0442b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ded6ae3b791a72c0fd01620bd13845f4') in 0.5880997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 434.354097 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Star
+  artifactKey: Guid(91a3d3d8fac484346a8bb7d98569a3db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Star using Guid(91a3d3d8fac484346a8bb7d98569a3db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8df03ff449ee624cd2e95ebc5e015be8') in 0.0576637 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/nm013.png
+  artifactKey: Guid(965f25042989b8f4292bb40c4db9875b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/nm013.png using Guid(965f25042989b8f4292bb40c4db9875b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ba09ccc9857b087b480f2485bc38387') in 0.1309838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/Grad.png
+  artifactKey: Guid(874635028d7352243aa14cadd92b4bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/Grad.png using Guid(874635028d7352243aa14cadd92b4bc8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dccf67c1929f2718c3876bb029cc1821') in 0.0245203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Special FX Shaders/Materials/Fire_Cylinder.mat
+  artifactKey: Guid(3d47cd18fd372c148b594f84bbc4122d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Materials/Fire_Cylinder.mat using Guid(3d47cd18fd372c148b594f84bbc4122d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd332b717562fa8dea64cb5cf0f155398') in 0.0654304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/MSmoke.mat
+  artifactKey: Guid(2e719188c15d9e74eb4cf97fe6cb0020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/MSmoke.mat using Guid(2e719188c15d9e74eb4cf97fe6cb0020) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cec6a5054787395e07422525bda84761') in 0.0247524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/None__mcir03256_png.mat
+  artifactKey: Guid(0c4be9c3628b4e4478c75efa5b0cfa93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/None__mcir03256_png.mat using Guid(0c4be9c3628b4e4478c75efa5b0cfa93) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c51d2a77c97ebc333b31309c235a95b') in 0.0185289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Part-EF.prefab
+  artifactKey: Guid(8a29f127b8dcf6543ace1377c06a819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Part-EF.prefab using Guid(8a29f127b8dcf6543ace1377c06a819d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c7322b2dab7471147383535f1ee07af') in 0.0297061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/Cloud_Disolve_N 1.png
+  artifactKey: Guid(8b73a49f0f4d75641bfab2092319763b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/Cloud_Disolve_N 1.png using Guid(8b73a49f0f4d75641bfab2092319763b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf7397ce36d1efb4835afe745a9a5b59') in 0.0248374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS
+  artifactKey: Guid(a6dff9b5dc6151c4f9839d20a725e771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS using Guid(a6dff9b5dc6151c4f9839d20a725e771) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95e7ac7f44771c02ee30abe9f84ef04a') in 0.0136337 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Special FX Shaders/Models/Dome_1.fbx
+  artifactKey: Guid(8592cfe846150d142a5bbe8be6324892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Models/Dome_1.fbx using Guid(8592cfe846150d142a5bbe8be6324892) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa9ddaed41e9ef95067d17385541dc82') in 0.0652796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/nm016.png
+  artifactKey: Guid(7797fe94665e5d34783b60e6c0379538) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/nm016.png using Guid(7797fe94665e5d34783b60e6c0379538) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '17cfc09795088655564252b97e3707e7') in 0.0447439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/Grad_low.png
+  artifactKey: Guid(f9a44354dc98bf747b17e72f6a91a2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/Grad_low.png using Guid(f9a44354dc98bf747b17e72f6a91a2a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c51e2ea58cd5140d2b86344dc48faf36') in 0.0239775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Star-2.controller
+  artifactKey: Guid(b96f7ac247f766741900ed386c09af6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Star-2.controller using Guid(b96f7ac247f766741900ed386c09af6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45fddc0ee1c4e57ca6cbfaf41b77dba8') in 0.0206988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Magic.prefab
+  artifactKey: Guid(852b4e6d85557294e950a5e28bf0442b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Magic.prefab using Guid(852b4e6d85557294e950a5e28bf0442b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4b652c4814006cf0d8cb66c28b65911') in 0.0156999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Star-1.prefab
+  artifactKey: Guid(69443d8e97e46354593c8099222f457c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Star-1.prefab using Guid(69443d8e97e46354593c8099222f457c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae4ff63afdc64854ec7ade351d523670') in 0.0290153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Special FX Shaders/Materials/Scene
+  artifactKey: Guid(a3ca1957c0cd7274392a796d09911802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Materials/Scene using Guid(a3ca1957c0cd7274392a796d09911802) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ccf677edeac4e9e490c5954a93943300') in 0.0137089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575964 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/F.prefab
+  artifactKey: Guid(f9ec2f8658da6c3419c330130bc09081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/F.prefab using Guid(f9ec2f8658da6c3419c330130bc09081) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '123f63233bfc33a094466b6657b458b4') in 0.0209706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Special FX Shaders/Textures/Tech/Tech-03.png
+  artifactKey: Guid(4c697df40fa6ce34bb7ea5e16dc1c81f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Tech/Tech-03.png using Guid(4c697df40fa6ce34bb7ea5e16dc1c81f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a27b693c2b41e18a2d28d0e795631151') in 0.0198558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.381782 seconds.
+  path: Assets/Special FX Shaders/Textures/Grad-004.png
+  artifactKey: Guid(7c5e8eeff3f0a994ca0e22287365afc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Grad-004.png using Guid(7c5e8eeff3f0a994ca0e22287365afc4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d2901d1fdeb6accaaf0f54cd46aef66') in 0.0233567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Special FX Shaders/Textures/Grad-008.png
+  artifactKey: Guid(3e62733012ecff3429a8df582e326d27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Grad-008.png using Guid(3e62733012ecff3429a8df582e326d27) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '128a16b53ccf78183b230fe6e660f01c') in 0.0265902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.361014 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Platform.fbx
+  artifactKey: Guid(a00d253eaea88164198e8432b0a26339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Platform.fbx using Guid(a00d253eaea88164198e8432b0a26339) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bf757bc3752486122dc23081320fe27') in 0.0351482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Star Animation.anim
+  artifactKey: Guid(c552260ebebf8ce49b6675c733d3a261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Star Animation.anim using Guid(c552260ebebf8ce49b6675c733d3a261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'abe94939770e1552e29d1bc3fd98e4b4') in 0.0190626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.369426 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/2.mat
+  artifactKey: Guid(28f09fa2c3bb0464f921f5a656bf6561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/2.mat using Guid(28f09fa2c3bb0464f921f5a656bf6561) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f703187dca845f7d3e0ca4d231730f33') in 0.0191368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Special FX Shaders/Textures/Cir.png
+  artifactKey: Guid(edd954ed702a6c941b744f8919914a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Cir.png using Guid(edd954ed702a6c941b744f8919914a49) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '375bdab2ba9c2a1b52500e65e734c588') in 0.02401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.139682 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Tech Animation.anim
+  artifactKey: Guid(3e49c353dfa73bf4c90a9868406dac32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Animation AFXS/Tech Animation.anim using Guid(3e49c353dfa73bf4c90a9868406dac32) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b152aff694fccb06bd78a814608925f') in 0.0182428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.441803 seconds.
+  path: Assets/Special FX Shaders/Shaders/Special FX/Air Distortion/Air Distortion - Single.shader
+  artifactKey: Guid(f449efe5f274bd544a7577fe10285240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Shaders/Special FX/Air Distortion/Air Distortion - Single.shader using Guid(f449efe5f274bd544a7577fe10285240) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a63c1e12a20137d861d26cf03485bbb') in 0.020238 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.445943 seconds.
+  path: Assets/Special FX Shaders/Textures/M-1.png
+  artifactKey: Guid(92623fd8e58c0aa459676109765582dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/M-1.png using Guid(92623fd8e58c0aa459676109765582dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a014d82edbe1f30a2fd81444977e7c5e') in 0.0198432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.466155 seconds.
+  path: Assets/Special FX Shaders/Materials/Dome/Dome_1.mat
+  artifactKey: Guid(3dca178999f57d14ea81082d723f1fc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Materials/Dome/Dome_1.mat using Guid(3dca178999f57d14ea81082d723f1fc0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '33456b266f0305847310aceff3c25721') in 0.0232243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.434505 seconds.
+  path: Assets/Special FX Shaders/Animations/Trail.controller
+  artifactKey: Guid(e3926e8289f48304fb039acda74c3f1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animations/Trail.controller using Guid(e3926e8289f48304fb039acda74c3f1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '53bdac9efdeb930337799ad63f31012f') in 0.0185267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.444361 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/mcir03256.mat
+  artifactKey: Guid(51d587c4c23a9e749a1242749eb1b282) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Mesh AFXS/Platform/Materials/mcir03256.mat using Guid(51d587c4c23a9e749a1242749eb1b282) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4dfc9b5b11124fc0db691e9569357e66') in 0.0162265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.460096 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Magic/M3.mat
+  artifactKey: Guid(0cf2c466477d8c6478b9750d78809d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Magic/M3.mat using Guid(0cf2c466477d8c6478b9750d78809d39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f7615681d87f3bf37a3e94b4007955a4') in 0.0250355 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437764 seconds.
+  path: Assets/Special FX Shaders/Shaders/Special FX/Special FX Intersection.shader
+  artifactKey: Guid(bf3d233a35872954b94ff8b50fb3e982) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Shaders/Special FX/Special FX Intersection.shader using Guid(bf3d233a35872954b94ff8b50fb3e982) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76a3dd20ad794705559ee0916697246c') in 0.0159801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/B.mat
+  artifactKey: Guid(8801a20c9bfba154da24b9d1a696390c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/B.mat using Guid(8801a20c9bfba154da24b9d1a696390c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e424d3b66f05b3569215862e3e57b081') in 0.0206825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Special FX Shaders/Animations/Dome2.anim
+  artifactKey: Guid(7db0402480e7c67478ffe173c0e6bf89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animations/Dome2.anim using Guid(7db0402480e7c67478ffe173c0e6bf89) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3c580062545455a7f578589102993380') in 0.0154346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/nm014.png
+  artifactKey: Guid(5ab92d6c54401c4419e392fef51357c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/nm014.png using Guid(5ab92d6c54401c4419e392fef51357c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4cee92605da0dba143d0e2e54421014') in 0.0408096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/GR/GR.mat
+  artifactKey: Guid(1e47dea8cb6affa488235f557de263f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/GR/GR.mat using Guid(1e47dea8cb6affa488235f557de263f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5ec0ac28d88480ba845515abac4b9fe4') in 0.01922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Special FX Shaders/Textures/B&W_1-n.png
+  artifactKey: Guid(52c35818c7f2b4d4999db89278788ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/B&W_1-n.png using Guid(52c35818c7f2b4d4999db89278788ef7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8a4f94320cf3b9f9a7398597cca7406b') in 0.0307358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Spirit trail.mat
+  artifactKey: Guid(c467fa96082db7d48a0aa8986799b38e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Spirit trail.mat using Guid(c467fa96082db7d48a0aa8986799b38e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dc45ca8b0f2dc128980f7367c7d447e4') in 0.0245033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Special FX Shaders/Models/Flag.fbx
+  artifactKey: Guid(4a24410d944194643806d84c2d5e060f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Models/Flag.fbx using Guid(4a24410d944194643806d84c2d5e060f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3773ef0a91c900ed27bf9375298246e') in 0.025546 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Special FX Shaders/Textures/NM/Cloud_Disolve_G 1.png
+  artifactKey: Guid(bad7be3b9faebff4d9bbaa27fa82d09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/NM/Cloud_Disolve_G 1.png using Guid(bad7be3b9faebff4d9bbaa27fa82d09c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c375c49c943ad024d9bec96e93911ecf') in 0.0237931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Special FX Shaders/Textures/B&W_1-nn.png
+  artifactKey: Guid(99a04a83e0ed00546a09064fe972ee18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/B&W_1-nn.png using Guid(99a04a83e0ed00546a09064fe972ee18) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1f1cd2ba131c2856903b541fb70d6701') in 0.0224938 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Special FX Shaders/Textures/Tech/Tech-01.png
+  artifactKey: Guid(7fb1a45a4e6431549b0d9504bcb99b75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Tech/Tech-01.png using Guid(7fb1a45a4e6431549b0d9504bcb99b75) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d8ec200293ef64dd33661528ff025e3') in 0.0224869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Special FX Shaders/Scripts/LineRenderControl.cs
+  artifactKey: Guid(948dfbe37acba2547844ecc3ee2e49fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Scripts/LineRenderControl.cs using Guid(948dfbe37acba2547844ecc3ee2e49fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '891bc281a0a66e4762d0eee9750780bf') in 0.015989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Special FX Shaders/Shaders/Editor
+  artifactKey: Guid(b448daac660fb8048963c77deef73d8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Shaders/Editor using Guid(b448daac660fb8048963c77deef73d8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb7be8ec0e87be59c12b856c6efe67d0') in 0.0130184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Plazma.mat
+  artifactKey: Guid(68dce8fd263d1ca4e86a05b7f73a4582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Plazma.mat using Guid(68dce8fd263d1ca4e86a05b7f73a4582) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '100acc182b614dc196a3818168bf3a74') in 0.0240656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Special FX Shaders/Textures/Cloud_Disolve_N.png
+  artifactKey: Guid(1b2365c4d674e2b499e7ac906a20fda4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/Cloud_Disolve_N.png using Guid(1b2365c4d674e2b499e7ac906a20fda4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5df11d9e866456dff6b74d669f6b4d1a') in 0.0245101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Special FX Shaders/Materials/Trail/Trail_1a.mat
+  artifactKey: Guid(67dd045a87c378d4eb7d67a0241d5c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Materials/Trail/Trail_1a.mat using Guid(67dd045a87c378d4eb7d67a0241d5c0f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce608bf2eef4e91e9a5addf9da30d162') in 0.0245882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Fire.prefab
+  artifactKey: Guid(7078b0258b6fd134c8b2cd5960755063) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Pref AFXS/Fire.prefab using Guid(7078b0258b6fd134c8b2cd5960755063) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0542d8988707b5bf5578b9899528f51e') in 0.0194777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Tech/Tech-1.mat
+  artifactKey: Guid(be6c6d6ce0a7d5743bd9de21c15aa3cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animated FX Shaders/Materials AFXS/Tech/Tech-1.mat using Guid(be6c6d6ce0a7d5743bd9de21c15aa3cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '374909b7d145744a84eb8b66328673f4') in 0.0223017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Special FX Shaders/Animations/Dome_2.controller
+  artifactKey: Guid(9d0fde88c6e6c2f4f9a65c4c13c1c055) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Animations/Dome_2.controller using Guid(9d0fde88c6e6c2f4f9a65c4c13c1c055) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '60bf1ab67693d5247abe77bb9b884ef4') in 0.0147958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Special FX Shaders/Models/cylinder_cone.fbx
+  artifactKey: Guid(b077efd4974925049ad6e082b5327766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Models/cylinder_cone.fbx using Guid(b077efd4974925049ad6e082b5327766) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '755e9ffafba96da2326ff1d5d6317e0c') in 0.0208551 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.745969 seconds.
+  path: Assets/Special FX Shaders/Textures/GR/gr02.png
+  artifactKey: Guid(dd1a7c6cc7345374e8d91d67fdfd560a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Special FX Shaders/Textures/GR/gr02.png using Guid(dd1a7c6cc7345374e8d91d67fdfd560a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8e26057b65e41c4fbad038a4a34be5d') in 0.0220106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
