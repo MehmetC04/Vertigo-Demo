@@ -23,7 +23,7 @@ Bu görevde, mobil platformların performans limitleri göz önünde bulundurula
   * Shader Graph kullanılarak oluşturulan ve UI mesh'leri / silah üzerine uygulanan rüzgar efekti.
   * Unity Particle System ile desteklenen ikincil (secondary) efektler.
   * Post-processing (ekran sonrası efekt) kullanılmadan, tamamen shader/materyal bazlı saf görselleştirme.
-  * Temiz ve düzenli Shader Graph nod yapısı.
+  * Temiz ve düzenli Shader yapısı.
 
 ## 🛠️ Kullanılan Teknolojiler & Versiyon
 * **Oyun Motoru:** Unity 6.3f1 
